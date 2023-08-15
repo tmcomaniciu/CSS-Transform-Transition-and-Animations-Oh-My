@@ -1,1 +1,16 @@
+button {
+  background-color: ghostwhite; /* Beginning state background color */
+  padding: 1em;
+  margin: 0.2em;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.5em;
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 2s; /* Transition property for color change */
+}
 
+button:hover {
+  background-color: cornflowerblue;
+  color: white; /* Hover state background color */
+}
